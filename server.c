@@ -37,6 +37,6 @@ int main(int argc, char const *argv[])
     int sock_cli_fd=accept(ser_sock,(struct sockaddr *)&address,(socklen_t *)&addr_len);
     char buf[BUF_SIZE]={1};
     buf[BUF_SIZE-1]='\0';
-    while(write(sock_cli_fd,buf,BUF_SIZE)>0){}
+    while(1){write(sock_cli_fd,buf,BUF_SIZE)}
     
 }

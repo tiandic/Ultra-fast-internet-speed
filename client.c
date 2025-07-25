@@ -1,7 +1,7 @@
 /*
  * @encode: utf-8
  * @Date: 2025-07-25 16:29:42
- * @LastEditTime: 2025-07-25 18:39:49
+ * @LastEditTime: 2025-07-25 21:27:41
  * @FilePath: /Ultra-fast internet speed/client.c
  */
 #include <sys/socket.h>
@@ -34,8 +34,7 @@ int main(int argc, char const *argv[])
     struct sockaddr_in addr = client_create_connect_server_addr("127.0.0.1",12345);
     connect(my_sock, (struct sockaddr *)&addr, sizeof(addr));
     char buf[BUF_SIZE];
-    int count;
-    while ((count = read(my_sock,buf,sizeof(buf))) > 0){}
+    while (1){read(my_sock,buf,sizeof(buf))}
     
     return 0;
 }
