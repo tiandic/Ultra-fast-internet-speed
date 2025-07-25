@@ -1,7 +1,7 @@
 <!--
  * @encode: utf-8
  * @Date: 2025-07-25 18:50:56
- * @LastEditTime: 2025-07-25 19:35:33
+ * @LastEditTime: 2025-07-25 19:39:08
  * @FilePath: /Ultra-fast internet speed/README.md
 -->
 # 一个简单的小程序
@@ -16,7 +16,7 @@
 
 然后再运行命令`cd Ultra-fast-internet-speed && chmod +x run.sh && ./run.sh`
 
-就能看到几百兆每秒的网速了!
+就能看到超高的网速了!
 
 你可以适当调整h.h文件中的数字来调整网速
 
