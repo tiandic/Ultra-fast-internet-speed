@@ -1,7 +1,7 @@
 <!--
  * @encode: utf-8
  * @Date: 2025-07-25 18:50:56
- * @LastEditTime: 2025-07-25 19:28:50
+ * @LastEditTime: 2025-07-25 19:31:59
  * @FilePath: /Ultra-fast internet speed/README.md
 -->
 # 一个简单的小程序
@@ -12,7 +12,7 @@
 ## 使用
 下载[termux](https://github.com/termux/termux-app/releases/)
 
-运行命令 `pkg install git -y && git clone https://github.com/tiandic/Ultra-fast-internet-speed.git`
+运行命令 `pkg install git clang -y && git clone https://github.com/tiandic/Ultra-fast-internet-speed.git`
 
 然后再运行命令`cd Ultra-fast-internet-speed && chmod +x run.sh && ./run.sh`
 
