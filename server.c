@@ -12,6 +12,7 @@
 #include <stdlib.h>
 #include "h.h"
 
+
 struct sockaddr_in server_create_server_addr(int port)
 {
     struct sockaddr_in address;
@@ -35,7 +36,7 @@ int main(int argc, char const *argv[])
     listen(ser_sock,1);
     int sock_cli_fd=accept(ser_sock,(struct sockaddr *)&address,(socklen_t *)&addr_len);
     char buf[BUF_SIZE]={1};
-    buf[1023999]='\0';
+    buf[BUF_SIZE-1]='\0';
     while(write(sock_cli_fd,buf,BUF_SIZE)>0){}
     
 }
