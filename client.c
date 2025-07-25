@@ -34,7 +34,7 @@ int main(int argc, char const *argv[])
     struct sockaddr_in addr = client_create_connect_server_addr("127.0.0.1",12345);
     connect(my_sock, (struct sockaddr *)&addr, sizeof(addr));
     char buf[BUF_SIZE];
-    while (1){read(my_sock,buf,sizeof(buf))}
+    while (1){read(my_sock,buf,sizeof(buf));}
     
     return 0;
 }
