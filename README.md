@@ -1,13 +1,13 @@
 <!--
  * @encode: utf-8
  * @Date: 2025-07-25 18:50:56
- * @LastEditTime: 2025-07-25 19:39:08
+ * @LastEditTime: 2025-07-30 14:35:34
  * @FilePath: /Ultra-fast internet speed/README.md
 -->
 # 一个简单的小程序
 让你手机上显示的实时网速看上去很快!
-![示例图片](./Screenshot_20250725-184911021.jpg)
 ![示例图片](./Screenshot_20250725-184921243.jpg)
+![示例图片](./Screenshot_2025-07-30-14-29-29-089_com.termux.jpg)
 
 ## 使用
 下载[termux](https://github.com/termux/termux-app/releases/)
