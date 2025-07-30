@@ -1,1 +1,1 @@
-#define BUF_SIZE 1024000
+#define BUF_SIZE 102400
